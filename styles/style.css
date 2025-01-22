@@ -94,22 +94,24 @@
 .line_2{
     height:1px;
     width: 98%;
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: black;
 }
 
 .list_area{
     
     width: 100%;
-    height: 1000px;
+    height: 100px;
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px 0px;
+    
 }
 
 .project_card{
-    margin: 20px;
+    margin: 20px 20px;
     width: 98%;
     height: 125px;
     border: 2px solid #242932;
