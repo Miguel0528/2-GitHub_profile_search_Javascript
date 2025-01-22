@@ -1,7 +1,0 @@
-<li class="list_area">
-                        <div class="project_card">
-                            <h2 class="project_name">Projeto:</h2>
-                            <p class="project_link">link</p>   
-                        </div> 
-                            <hr class="line_2"> 
-                </li>
