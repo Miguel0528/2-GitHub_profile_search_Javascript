@@ -15,7 +15,7 @@ function getApi(){
 
                 li.innerHTML = `<div class="project_card">
                                     <h2 class="project_name">${item.name}</h2>
-                                    <p class="project_link">Link: ${item.url}</p>   
+                                    <p class="project_link">Link: ${item.html_url}</p>   
                                 </div> 
                                 <hr class="line_2"> `
 
@@ -24,5 +24,6 @@ function getApi(){
         })
         .catch(e => {
             console.log(e);
+            alert("Erro: " + e)
         })
 }
